@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+    color: red;
+}
+
+.user-location {
+    display: flex;
+}
+
+.search-box {
+    display: flex;
+}
+
+.country-language {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.country-logo {
+    width: 30px;
+}
+
+.cart-logo {
+    width: 40px;
+}
