@@ -2,37 +2,63 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
+    background-color: #1D2D44;
+    padding: 0px 10px;
 }
 
 .logo {
-    font-size: 28px;
-    font-weight: 600;
-    color: red;
+    font-style: italic;
+    color: #D4AF37;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.location-logo i {
+    font-size: 1.3rem;
+    color:rgba(255, 255, 255, 0.9);
 }
 
 .user-location {
     display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #A9A9A9;
 }
 
-.search-box {
-    display: flex;
+.user-location .user-current-address {
+    font-size: 0.9rem;
 }
 
-.country-language {
+.user-location .update-location {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F4F4F4;
+}
+
+.user-input-box {
     display: flex;
     align-items: center;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+    border-radius: 5px;
+    flex: 1;
 }
 
-.cart {
-    display: flex;
-    align-items: center;
+.user-input-box .input-here {
+    padding: 9px 10px;
+    font-size: 1rem;
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
 }
 
-.country-logo {
-    width: 30px;
+.user-input-box i {
+    background-color: #D4AF37;
+    font-size: 1.5rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0px 5px 5px 0px;
 }
 
-.cart-logo {
-    width: 40px;
+.user-input-box .input-here:focus {
+    outline: none;
 }
