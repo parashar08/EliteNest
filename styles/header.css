@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    background-color: #1D2D44;
+    /* background-color: #1D2D44; */
+    background-color: #0A1931;
     padding: 0px 0.8rem;
     position: fixed;
     top: 0;
@@ -97,7 +98,7 @@
 
 .auth button, .shopping-details button {
     font-size: 1rem;
-    background-color: #1D2D44;
+    background-color: #0A1931;
     color: #F4F4F4;
     border: none;
     cursor: pointer;
