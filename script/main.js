@@ -19,7 +19,10 @@ function changeGradient(direction) {
     if (direction === 'forward') {
         currentGradientIndex = (currentGradientIndex + 1) % gradient.length;
     } else if (direction === 'backward') {
-        currentGradientIndex = (currentGradientIndex - 1) % gradient.length;
+        if (currentGradientIndex === 0) 
+            currentGradientIndex = gradient.length - 1;
+        else 
+            currentGradientIndex = (currentGradientIndex - 1) % gradient.length;
     }
 
     gradientContainer.style.background = gradient[currentGradientIndex];
