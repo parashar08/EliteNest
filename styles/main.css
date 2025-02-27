@@ -1,15 +1,15 @@
-.background-effect {
-    background: linear-gradient(195deg, #f1c27d, #4facfe);
+.gradient-container {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.background-effect i{
+.gradient-container i{
     font-size: 2.8rem;
     color: rgba(0, 0, 0, 0.6);
     position: relative;
     bottom: 27vh;
     padding: 0px 1rem;
+    cursor: pointer;
 }
