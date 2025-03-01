@@ -1,6 +1,6 @@
 const backwardArrow = document.querySelector('.js-backward');
 const forwardArrow = document.querySelector('.js-forward');
-const gradientContainer = document.querySelector('.gradient-container');
+const gradientContainer = document.querySelector('.main-section');
 
 const gradient = [
     "linear-gradient(45deg, #f7e1b5, #f8c3a3)", 
