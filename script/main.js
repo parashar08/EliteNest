@@ -1,23 +1,23 @@
 const products = [
     {
         title: 'Mens',
-        image: 'assets/men.avif',       
+        image: 'https://assets.grok.com/users/24b352a1-08bc-4f33-8d07-40f940839afe/Ue4vRC83kqamEdqe-generated_image.jpg',       
     },
     {
         title: 'Womens',
-        image: 'assets/women.avif'
+        image: 'https://assets.grok.com/users/24b352a1-08bc-4f33-8d07-40f940839afe/6VfnisNkMoYT3wGP-generated_image.jpg'
     },
     {
         title: 'Kids',
-        image: 'assets/kids.jpg'
+        image: 'https://assets.grok.com/users/24b352a1-08bc-4f33-8d07-40f940839afe/KcMtHWxSFk0BFYF1-generated_image.jpg'
     },
     {
         title: 'Beauty',
-        image: 'assets/beauty.jpeg'
+        image: 'https://assets.grok.com/users/24b352a1-08bc-4f33-8d07-40f940839afe/MwvN2WfPXXn5pO0v-generated_image.jpg'
     },
     {
         title: 'Electronics',
-        image: 'assets/electronics.jpg'
+        image: 'https://assets.grok.com/users/24b352a1-08bc-4f33-8d07-40f940839afe/9QtM350bbCKqmLoS-generated_image.jpg'
     }
 ];
 
