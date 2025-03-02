@@ -8,10 +8,14 @@
     gap: 5rem;
 }
 
+/* company name css */
+
 .company-name {
     font-size: 2rem;
     cursor: pointer;
 }
+
+/* location css */
 
 .user-location {
     display: flex;
@@ -33,6 +37,8 @@
     margin-top: 1px;
 }
 
+/* input box css */
+
 .input-box {
     display: flex;
     align-items: center;
@@ -40,6 +46,11 @@
     background-color: #FFFFFF;
     padding: 0px 0.5rem;
     border-radius: 6px;
+}
+
+.input-focus {
+    outline: 2px solid red;
+    outline-offset: 3px;
 }
 
 .input-box .input {
@@ -55,12 +66,40 @@
 
 .input-box i {
     font-size: 1.3rem;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.5);
 }
+
+/* language css */
+
+.basic-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* .basic-info:hover {
+    outline: 2px solid red;
+    outline-offset: 0.9rem;
+} */
+
+.basic-info i {
+    font-size: 1.5rem;
+}
+
+.basic-info select {
+    height: 1.2rem;
+}
+
+/* order history css */
 
 .order-history {
     cursor: pointer;
 }
+
+/* .order-history:hover {
+    outline: 2px solid red;
+    outline-offset: 0.6rem;
+} */
 
 .order-history .returns {
     font-size: 0.9rem;
@@ -71,10 +110,14 @@
     font-weight: 600;
 }
 
+/* cart icon css */
+
 .cart-box i {
     font-size: 1.8rem;
     cursor: pointer;
 }
+
+/* three dot css */
 
 .navigation i {
     font-size: 1.2rem;
