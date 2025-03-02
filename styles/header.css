@@ -1,0 +1,82 @@
+.header {
+    height: 4rem;
+    background-color: #1A237E;
+    padding: 0px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.company-name {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.user-location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.location-icon i {
+    font-size: 1.3rem;
+}
+
+.location-data .local-add {
+    font-size: 0.8rem;
+}
+
+.location-data .high-level-add {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 0px 0.5rem;
+    border-radius: 6px;
+}
+
+.input-box .input {
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-box i {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.order-history {
+    cursor: pointer;
+}
+
+.order-history .returns {
+    font-size: 0.9rem;
+}
+
+.order-history .orders {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cart-box i {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.navigation i {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
